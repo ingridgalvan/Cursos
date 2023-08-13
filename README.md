@@ -115,7 +115,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-SmileSunshine - ingrid_lizbeth12@hotmail.com
+
 
 Project Link: [https://github.com/ingridgalvan/Cursos](https://github.com/ingridgalvan/Cursos)
 
