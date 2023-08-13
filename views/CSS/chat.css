@@ -1,0 +1,101 @@
+.cont{
+    margin-top: 66px;
+}
+
+.img-user{
+    width: 100px;
+    border-radius: 50%;
+}
+
+.img-user-head{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+.users-chat{
+    overflow-y: scroll;
+    height: calc(100vh - 150px);
+}
+
+.title-chat{
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.search-chat{
+    border:0px;
+    background-color: #F0F2F5;
+    outline: none;
+    padding :0px 10px;
+    border-radius: 20px;
+}
+
+.text-message{
+    padding:8px 10px !important;
+    resize: none;
+    border:0px;
+    width: 100%;
+    margin: 0px 10px;
+    background-color: #F0F2F5;
+    outline: none;
+    padding :0px 10px;
+    border-radius: 20px;
+}
+
+.card-msg{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+
+.box-message{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: stretch;
+    height: 50px;
+    margin-top: 10px;
+}
+
+
+
+.messages{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+    overflow-y: scroll;
+}
+
+.head-msg{
+    height: 60px;
+    border-bottom: 1px solid #ADADAD;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.comment{
+    border-radius: 20px;
+    padding:5px 10px;
+    margin: 10px 20px;
+}
+.owner{
+    height: auto;
+    max-width: 400px;
+    color:rgb(238, 238, 238);
+    background-color: #141c29;
+}
+
+.noowner{
+    height: auto;
+    max-width: 400px;
+    color:rgb(63, 60, 60);
+    background-color: #E5E7EB;
+}
